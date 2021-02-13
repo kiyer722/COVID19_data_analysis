@@ -34,7 +34,7 @@
 							<li><a href="github.com/NayeonKeum/COVID19_data_analysis/" class="icon brands fa-github"><span class="label">GitHub</span></a></li>
 						</ul>
 						<ul class="links">
-							<li class="active"><a href="https://solux.dev/">SOLUX 홈페이지</a></li>
+							<a href="https://solux.dev/" class="image logo"><img src="images/soluxlogo.png" alt=""/>SOLUX 홈페이지</a></li>
 						</ul>
 					</nav>
 
@@ -45,6 +45,7 @@
 							<section class="post">
 								<header class="major">
 									<h1>상권 변화 분석</h1>
+									<h3>By김가영, 장정윤</h3></h3>
 								</header>
 
 								<!-- Text stuff -->
@@ -377,8 +378,7 @@ print 'It took ' + i + ' iterations to sort the deck.';
 						<section class="split contact">
 							<section class="alt">
 								<h3>Address</h3>
-								<p>서울특별시 용산구 청파로47길 100 (청파동2가),<br />
-								숙명여자대학교</p>
+								<p>서울특별시 용산구 청파로47길 100 (청파동2가), 숙명여자대학교</p>
 							</section>
 							<section>
 								<h3>Email</h3>
@@ -402,7 +402,7 @@ print 'It took ' + i + ' iterations to sort the deck.';
 
 				<!-- Copyright -->
 					<div id="copyright">
-						<ul><li>&copy; Untitled</li><li>Design: <a href="https://html5up.net">HTML5 UP</a></li></ul>
+						<ul><li>&copy; Untitled, Nayeon Keum</li><li>Design: <a href="https://html5up.net">HTML5 UP</a></li></ul>
 					</div>
 
 			</div>
