@@ -2586,7 +2586,7 @@ input, select, textarea {
 			font-family: 'Font Awesome 5 Brands';
 		}
 /* Video */
-video { max-width: 60%; display: block; margin: 20px auto; }
+video { max-width: 80%; display: block; margin: 20px auto; }
 /* Image */
 
 	.image {
@@ -2632,7 +2632,18 @@ video { max-width: 60%; display: block; margin: 20px auto; }
 			.image.fit img {
 				width: 100%;
 			}
+		.image.logo {
+			display: block;
+			margin: margin: 0px auto 2.5rem 0;
+			width: 100%;
+		}
+			.image.fit:first-child {
+				margin-top: 0;
+			}
 
+			.image.logo img {
+				width: 50%;
+			}
 		.image.main {
 			display: block;
 			margin: 4rem 0;
