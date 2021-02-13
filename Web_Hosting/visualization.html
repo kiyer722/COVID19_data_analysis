@@ -6,7 +6,7 @@
 -->
 <html>
 	<head>
-		<title>일 별 데이터 시각화</title>
+		<title>데이터 시각화</title>
 		<meta charset="utf-8" />
 		<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
 		<link rel="stylesheet" href="assets/css/main.css" />
@@ -26,14 +26,15 @@
 					<nav id="nav">
 						<ul class="links">
 							<li class="active"><a href="index.html">Main Menu</a></li>
-							<li><a href="visualization.html">일 별 데이터 시각화</a></li>
+							<li><a href="visualization.html">데이터 시각화</a></li>
 							<li><a href="analysis.html">상권 변화 분석</a></li>
 						</ul>
 						<ul class="icons">
-							<li><a href="#" class="icon brands fa-twitter"><span class="label">Twitter</span></a></li>
-							<li><a href="#" class="icon brands fa-facebook-f"><span class="label">Facebook</span></a></li>
-							<li><a href="#" class="icon brands fa-instagram"><span class="label">Instagram</span></a></li>
+							<li><a href="https://www.instagram.com/only_solux/" class="icon brands fa-instagram"><span class="label">Instagram</span></a></li>
 							<li><a href="#" class="icon brands fa-github"><span class="label">GitHub</span></a></li>
+						</ul>
+						<ul class="links">
+							<li class="active"><a href="https://solux.dev/">SOLUX 홈페이지</a></li>
 						</ul>
 					</nav>
 
@@ -44,21 +45,36 @@
 							<section class="post">
 								<header class="major">
 									<span class="date">2020</span>
-									<h1>일 별 데이터 시각화</h1>
-									<p>세가지로 나뉜다 일별 확진자, <br />일별 회복자, 일별 사망자 <br/>본 분석은 한눈에 보기 위해서 어쩌이ㅏㄹ닝린ㅇ러ㅣ넝 목표는 이라ㅓ닝러ㅣㄶ미이점디ㅏㅓ니어라ㅣㄴ이란머아ㅣ러니ㅏㅇ러이다.</p>
+									<h1>데이터 시각화</h1>
+									<p>본 분석은 한눈에 보기 위해서 국가별, 서울시 확진자 데이터를 분석하는 어쩌이ㅏㄹ닝린ㅇ러ㅣ넝 목표는 이라ㅓ닝러ㅣㄶ미이점디ㅏㅓ니어라ㅣㄴ이란머아ㅣ러니ㅏㅇ러이다.</p>
 									<p>dnd </p>
 									<p> dkdkd</p>
 									<p>dldl </p>
 								</header>
-								<h2>1. 일 별 확진자 수</h2>
-								<div class="image main"><img src="images/pic01.jpg" alt="" /></div>
-								<p>설설명염이ㅏㄻ닝리ㅏㄴㅇ림ㄴ어리ㅏ니아러밍너림ㄴ일</p>
-								<h2>2. 일 별 사망자 수</h2>
-								<div class="image main"><img src="images/pic01.jpg" alt="" /></div>
-								<p>설설명염이ㅏㄻ닝리ㅏㄴㅇ림ㄴ어리ㅏ니아러밍너림ㄴ일</p>
-								<h2>3. 일 별 회복자 수</h2>
-								<div class="image main"><img src="images/pic01.jpg" alt="" /></div>
-								<p>설설명염이ㅏㄻ닝리ㅏㄴㅇ림ㄴ어리ㅏ니아러밍너림ㄴ일</p>
+								<h2>1. 국가별 코로나 데이터 시각화</h2>
+								<p>  국가별 코로나 누적 확진자, 회복자, 사망자 수 추이를 시각화했습니다. 시각화를 위해 존스 홉킨스 대학 시스템 사이언스 · 엔지니어링 센터(JHU CCSE)에서 제공하는 COVID-19 데이터를 사용하였습니다. 전처리를 위해 일별 데이터가 있는 csv 파일에서 필요한 컬럼(확진자수, 회복자수, 사망자수, 국가/지역)을 추출하였습니다. 한 국가 내에서 지역별로 데이터가 나누어져 있는 경우는 합산하여 하나의 국가로 나타내었습니다. 이렇게 정리한 데이터프레임에 각 국가의 국기 이미지를 사용하기 위해 ISO2 국가 코드를 이용하여 https://www.countryflags.io/ 에서 제공하는 국기 이미지 링크를 데이터프레임에 추가하였습니다.</p>
+								<p>  이렇게 만들어진 데이터프레임을 csv 파일로 저장하여 app.flourish.studio 에서 bar chart race 형태로 시각화를 하였습니다. x축은 누적 확진자/회복자/사망자 수를 나타내고, y축은 국가명을 나타내어 2020/01/22 부터 2021/02/10 간의 변화를 볼 수 있습니다. </p>
+								<p>  단, 회복자 수의 경우 데이터가 없는 국가도 있어 해당 국가의 회복자수를 0명으로 처리했고, 미국의 경우 2020/12/15 이후로 전부 0으로 나와있어 2020/12/14~2021/02/10 동안은 회복자 수의 변화가 없습니다. </p>
+
+								<h3>1.1. 누적 확진자</h3>
+								    <video muted controls autoplay loop>
+								    <source src="images/confirmed.mp4" type="video/mp4">
+									<strong>Your browser does not support the video tag.</strong>
+									</video>
+									<p>설설명염이ㅏㄻ닝리ㅏㄴㅇ림ㄴ어리ㅏ니아러밍너림ㄴ일</p>
+								<h3>1.2. 누적 사망자수</h3>
+								    <video muted controls autoplay loop>
+								    <source src="images/deaths.mp4" type="video/mp4">
+									<strong>Your browser does not support the video tag.</strong>
+									</video>
+									<p>설설명염이ㅏㄻ닝리ㅏㄴㅇ림ㄴ어리ㅏ니아러밍너림ㄴ일</p>
+								<h3>1.3. 누적 회복자수 </h3>
+								    <video muted controls autoplay loop>
+								    <source src="images/recovered.mp4" type="video/mp4">
+									<strong>Your browser does not support the video tag.</strong>
+									</video>
+									<p>설설명염이ㅏㄻ닝리ㅏㄴㅇ림ㄴ어리ㅏ니아러밍너림ㄴ일</p>
+
 
 							</section>
 
@@ -69,21 +85,25 @@
 						<section class="split contact">
 							<section class="alt">
 								<h3>Address</h3>
-								<p>1234 Somewhere Road #87257<br />
-								Nashville, TN 00000-0000</p>
+								<p>서울특별시 용산구 청파로47길 100 (청파동2가),<br />
+								숙명여자대학교</p>
 							</section>
 							<section>
 								<h3>Email</h3>
-								<p><a href="#">info@untitled.tld</a></p>
+								<p>sm.solux@gmail.com</p>
 							</section>
 							<section>
 								<h3>Social</h3>
 								<ul class="icons alt">
-									<li><a href="#" class="icon brands alt fa-twitter"><span class="label">Twitter</span></a></li>
-									<li><a href="#" class="icon brands alt fa-facebook-f"><span class="label">Facebook</span></a></li>
-									<li><a href="#" class="icon brands alt fa-instagram"><span class="label">Instagram</span></a></li>
-									<li><a href="#" class="icon brands alt fa-github"><span class="label">GitHub</span></a></li>
+									<li><a href="https://www.instagram.com/only_solux/" class="icon brands fa-instagram"><span class="label">Instagram</span></a></li>
+									<li><a href="#" class="icon brands fa-github"><span class="label">GitHub</span></a></li>
 								</ul>
+								<p>
+									&nbsp;&nbsp;&nbsp;&nbsp;
+								</p>
+								<dl class="links">
+									<dt class="active"><a href="https://solux.dev/">SOLUX 홈페이지</a></dt>
+								</dl> 
 							</section>
 						</section>
 					</footer>

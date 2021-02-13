@@ -2585,7 +2585,8 @@ input, select, textarea {
 		.icon.brands:before {
 			font-family: 'Font Awesome 5 Brands';
 		}
-
+/* Video */
+video { max-width: 80%; display: block; margin: 20px auto; }
 /* Image */
 
 	.image {
