@@ -78,7 +78,7 @@
 									</header>
 									<h4>1.2.1. 전처리 전</h4>
 									<p>-코로나 이전(2019)</br><span class="image fit"><img src="images/analysis/jang/데이터전처리/2019/데이터2019.png" /></span></p>
-									<p>-코로나 이후(2020)</br><span class="image fit"><img src="images/analysis/jang/데이터전처리/2020/데이터2020.png" /></span></p>
+									<p>-코로나 이후(2020)</br><span class="image fit"><img src="images/analysis/jang/데이터전처리/2020/데이터2020.PNG" /></span></p>
 									<h4>1.2.2. 상관관계 분석(R)</h4>
 									<p>-코로나 이전(2019)</br><span class="image fit"><img src="images/analysis/jang/데이터전처리/2019/상관관계2019.png" /></span></p>
 									<p>-코로나 이후(2020)</br><span class="image fit"><img src="images/analysis/jang/데이터전처리/2020/상관관계2020.png" /></p>
@@ -370,7 +370,9 @@
 										</ul></li>
 									</ol>
 
+									<br/>
 									<hr />
+									<br/>
 
 									<header>
 										<h2>4. 결론</h2>
@@ -384,13 +386,15 @@
 									</header>
 									<p>2020년, 2019년 공통적으로 아파트 수가 많을수록 개업 점포수가 적을수록 성공 비율이 높아짐을 볼 수 있고, 2020년은 2019년과 달리 당월매출금액이 많을수록 성공 비율이 높아지는 것을 볼 수 있었다. <br/>2019년과 2020년은 각각 코로나 발생 전과 코로나 발생 후이다. 코로나 발생 이후인 2020년에는 상권이 2019년보다 악화될 것을 예상했지만, 이 변수들만으로는 비교할 수가 없음을 판단했다. 폐업률, 임대료 변화 등 상권에 직간접적인 영향을 끼칠 요소를 반영하지 못해 아쉬움이 있었다. 또한, 구체적으로 예를 들어, 계절별로, 혹은 서비스 업종별로 분석하지 못해 구체적으로 결과를 분석할 수 없다는 점이 아쉬웠다.</p>
 
+									<br/>
 									<hr />
+									<br/>
 
 									<header>
 										<h2>5. 사용 데이터 셋</h2>
 									</header>
 									<ul>
-										<li>서울열린데이터광장(http://data.seoul.go.kr/dataList/3/literacyView.do)</li>
+										<li><a href="http://data.seoul.go.kr/dataList/3/literacyView.do" class="links">서울열린데이터광장</a></li>
 										<li>서울시우리마을가게상권분석서비스(상권-추정유동인구)</li>
 										<li>서울시우리마을가게상권분석서비스(상권-집객시설)</li>
 										<li>서울시우리마을가게상권분석서비스(상권-상주인구)</li>
