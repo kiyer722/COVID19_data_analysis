@@ -116,13 +116,13 @@ input, select, textarea {
 /* Type */
 
 	html {
-		font-size: 20pt;
+		font-size: 18pt;
 	}
 
 		@media screen and (max-width: 1680px) {
 
 			html {
-				font-size: 16pt;
+				font-size: 14pt;
 			}
 
 		}
@@ -130,7 +130,7 @@ input, select, textarea {
 		@media screen and (max-width: 1280px) {
 
 			html {
-				font-size: 15pt;
+				font-size: 13pt;
 			}
 
 		}
@@ -138,7 +138,7 @@ input, select, textarea {
 		@media screen and (max-width: 360px) {
 
 			html {
-				font-size: 14pt;
+				font-size: 12pt;
 			}
 
 		}
@@ -150,7 +150,7 @@ input, select, textarea {
 	body, input, select, textarea {
 		font-family:  'Do Hyeon',"Merriweather", Georgia, serif;
 		font-weight: 300;
-		font-size: 1.4rem;
+		font-size: 1.2rem;
 		line-height: 2.375;
 	}
 
@@ -196,42 +196,42 @@ input, select, textarea {
 		}
 
 	h1 {
-		font-size: 4.4rem;
+		font-size: 4.2rem;
 		line-height: 1.1;
 		margin: 0 0 2rem 0;
 	}
 
 	h2 {
-		font-size: 2.15rem;
+		font-size: 1.95rem;
 		line-height: 1.3;
 		margin: 0 0 1.5rem 0;
 	}
 
 	h3 {
-		font-size: 1.65rem;
+		font-size: 1.45rem;
 		margin: 0 0 1.5rem 0;
 	}
 
 	h4 {
-		font-size: 1.4rem;
+		font-size: 1.2rem;
 	}
 
 	h5 {
-		font-size: 1.3rem;
+		font-size: 1.1rem;
 	}
 
 	h6 {
-		font-size: 1.2rem;
+		font-size: 1.0rem;
 	}
 
 	sub {
-		font-size: 1.2rem;
+		font-size: 1.0rem;
 		position: relative;
 		top: 0.5rem;
 	}
 
 	sup {
-		font-size: 1.2rem;
+		font-size: 1.0rem;
 		position: relative;
 		top: -0.5rem;
 	}
@@ -246,7 +246,7 @@ input, select, textarea {
 	code {
 		border: solid 2px;
 		font-family:  'Do Hyeon',"Courier New", monospace;
-		font-size: 1.3rem;
+		font-size: 1.1rem;
 		margin: 0 0.25rem;
 		padding: 0.25rem 0.65rem;
 	}
@@ -254,7 +254,7 @@ input, select, textarea {
 	pre {
 		-webkit-overflow-scrolling: touch;
 		font-family:  'Do Hyeon',"Courier New", monospace;
-		font-size: 1.3rem;
+		font-size: 1.1rem;
 		margin: 0 0 2rem 0;
 	}
 
@@ -2079,7 +2079,7 @@ input, select, textarea {
 		cursor: pointer;
 		display: inline-block;
 		font-family:  'Do Hyeon',"Source Sans Pro", Helvetica, sans-serif;
-		font-size: 1.2rem;
+		font-size: 1rem;
 		font-weight: 900;
 		letter-spacing: 0.075em;
 		height: 3rem;
@@ -2127,7 +2127,7 @@ input, select, textarea {
 				width: inherit;
 				height: inherit;
 				line-height: inherit;
-				font-size: 1.65rem;
+				font-size: 1.45rem;
 				margin-right: 0;
 				text-align: center;
 				text-indent: 0;
@@ -2146,7 +2146,7 @@ input, select, textarea {
 		input[type="button"].small,
 		button.small,
 		.button.small {
-			font-size: 1.1rem;
+			font-size: 0.9rem;
 			height: 2.5rem;
 			line-height: 2.5rem;
 			padding: 0 1.5rem;
@@ -2157,7 +2157,7 @@ input, select, textarea {
 		input[type="button"].large,
 		button.large,
 		.button.large {
-			font-size: 1.3rem;
+			font-size: 1.1rem;
 			height: 3.5rem;
 			line-height: 3.5rem;
 			padding: 0 2.75rem;
@@ -2170,7 +2170,7 @@ input, select, textarea {
 			input[type="button"],
 			button,
 			.button {
-				font-size: 1.3rem;
+				font-size: 1.1rem;
 				height: 3.25rem;
 				line-height: 3.25rem;
 			}
@@ -2180,7 +2180,7 @@ input, select, textarea {
 				input[type="button"].large,
 				button.large,
 				.button.large {
-					font-size: 1.4rem;
+					font-size: 1.2rem;
 					height: 3.75rem;
 					line-height: 3.75rem;
 				}
@@ -2317,7 +2317,7 @@ input, select, textarea {
 		font-weight: 900;
 		line-height: 1.5;
 		letter-spacing: 0.075em;
-		font-size: 1.2rem;
+		font-size: 1rem;
 		text-transform: uppercase;
 		margin: 0 0 0.75rem 0;
 	}
@@ -2325,7 +2325,7 @@ input, select, textarea {
 		@media screen and (max-width: 980px) {
 
 			label {
-				font-size: 1.3rem;
+				font-size: 1.1rem;
 			}
 
 		}
@@ -2405,7 +2405,7 @@ input, select, textarea {
 			text-decoration: none;
 			cursor: pointer;
 			display: inline-block;
-			font-size: 1.4rem;
+			font-size: 1.2rem;
 			letter-spacing: 0;
 			font-family:  'Do Hyeon',"Merriweather", Georgia, serif;
 			text-transform: none;
@@ -2435,7 +2435,7 @@ input, select, textarea {
 				border: solid 2px;
 				content: '';
 				display: inline-block;
-				font-size: 1.2rem;
+				font-size: 1rem;
 				height: 1.8rem;
 				left: 0;
 				line-height: 1.65rem;
@@ -2835,7 +2835,7 @@ video { max-width: 80%; display: block; margin: 20px auto; }
 				display: inline-block;
 				text-align: center;
 				border-radius: 100%;
-				font-size: 2.05rem;
+				font-size: 1.95rem;
 			}
 
 		ul.icons.alt li .icon:before {
@@ -2843,7 +2843,7 @@ video { max-width: 80%; display: block; margin: 20px auto; }
 			-webkit-transition: color 0.2s ease-in-out, background-color 0.2s ease-in-out, border-color 0.2s ease-in-out, box-shadow 0.2s ease-in-out;
 			-ms-transition: color 0.2s ease-in-out, background-color 0.2s ease-in-out, border-color 0.2s ease-in-out, box-shadow 0.2s ease-in-out;
 			transition: color 0.2s ease-in-out, background-color 0.2s ease-in-out, border-color 0.2s ease-in-out, box-shadow 0.2s ease-in-out;
-			font-size: 1.4rem;
+			font-size: 1.2rem;
 		}
 
 /* List */
@@ -2925,7 +2925,7 @@ video { max-width: 80%; display: block; margin: 20px auto; }
 
 		header > .date {
 			display: block;
-			font-size: 1.2rem;
+			font-size: 1rem;
 			height: 1;
 			margin: 0 0 1rem 0;
 			position: relative;
@@ -2936,23 +2936,23 @@ video { max-width: 80%; display: block; margin: 20px auto; }
 		}
 
 		header > h1 + p {
-			font-size: 1.5rem;
+			font-size: 1.3rem;
 			margin-top: -0.5rem;
 			line-height: 2;
 		}
 
 		header > h2 + p {
-			font-size: 1.4rem;
+			font-size: 1.2rem;
 			margin-top: -0.75rem;
 		}
 
 		header > h3 + p {
-			font-size: 1.3rem;
+			font-size: 1.2rem;
 			margin-top: -0.75rem;
 		}
 
 		header > h4 + p {
-			font-size: 1.2rem;
+			font-size: 1rem;
 			margin-top: -0.75rem;
 		}
 
@@ -2971,7 +2971,7 @@ video { max-width: 80%; display: block; margin: 20px auto; }
 			}
 
 			header.major > .date {
-				font-size: 1.4rem;
+				font-size: 1.2rem;
 				margin: 0 0 4rem 0;
 			}
 
@@ -3036,7 +3036,7 @@ video { max-width: 80%; display: block; margin: 20px auto; }
 
 		table th {
 			font-family: 'Do Hyeon', "Source Sans Pro", Helvetica, sans-serif;
-			font-size: 1.2rem;
+			font-size: 1rem;
 			font-weight: 900;
 			letter-spacing: 0.075em;
 			line-height: 1.5;
@@ -3048,7 +3048,7 @@ video { max-width: 80%; display: block; margin: 20px auto; }
 			@media screen and (max-width: 980px) {
 
 				table th {
-					font-size: 1.3rem;
+					font-size: 1.1rem;
 				}
 
 			}
@@ -3136,7 +3136,7 @@ video { max-width: 80%; display: block; margin: 20px auto; }
 			border: solid 2px;
 			display: inline-block;
 			font-family: 'Do Hyeon', "Source Sans Pro", Helvetica, sans-serif;
-			font-size: 1.2rem;
+			font-size: 1rem;
 			font-weight: 900;
 			height: 3rem;
 			letter-spacing: 0.075em;
@@ -3187,7 +3187,7 @@ video { max-width: 80%; display: block; margin: 20px auto; }
 		@media screen and (max-width: 980px) {
 
 			.pagination a, .pagination span {
-				font-size: 1.3rem;
+				font-size: 1.1rem;
 			}
 
 		}
@@ -3398,12 +3398,12 @@ video { max-width: 80%; display: block; margin: 20px auto; }
 				}
 
 		#intro h1 {
-			font-size: 5.4rem;
+			font-size: 5.2rem;
 			line-height: 1;
 		}
 
 		#intro p {
-			font-size: 1.65rem;
+			font-size: 1.45rem;
 			font-style: italic;
 			margin-top: -0.25rem;
 			text-align: center;
@@ -3486,13 +3486,13 @@ video { max-width: 80%; display: block; margin: 20px auto; }
 			}
 
 				#intro h1 {
-					font-size: 3.65rem;
+					font-size: 3.45rem;
 					line-height: 1.1;
 					margin-bottom: 1rem;
 				}
 
 				#intro p {
-					font-size: 1.4rem;
+					font-size: 1.2rem;
 					margin-top: 0rem;
 				}
 
@@ -3579,7 +3579,7 @@ video { max-width: 80%; display: block; margin: 20px auto; }
 			border-color: #ffffff;
 			border-width: 5px !important;
 			font-family: 'Do Hyeon', "Source Sans Pro", Helvetica, sans-serif;
-			font-size: 2.65rem;
+			font-size: 2.45rem;
 			font-weight: 900;
 			letter-spacing: 0.075em;
 			line-height: 1;
@@ -3609,7 +3609,7 @@ video { max-width: 80%; display: block; margin: 20px auto; }
 			}
 
 				#header .logo {
-					font-size: 2.15rem;
+					font-size: 1.95rem;
 					border-width: 3px !important;
 				}
 
@@ -3723,7 +3723,7 @@ video { max-width: 80%; display: block; margin: 20px auto; }
 					-ms-transition: background-color 0.2s ease-in-out, color 0.2s ease-in-out;
 					transition: background-color 0.2s ease-in-out, color 0.2s ease-in-out;
 					display: block;
-					font-size: 0.8rem;
+					font-size: 0.6rem;
 					outline: none;
 					padding: 0 2rem;
 				}
@@ -3799,7 +3799,7 @@ video { max-width: 80%; display: block; margin: 20px auto; }
 			}
 
 			#main > .post header.major > h1, #main > .post header.major h2 {
-				font-size: 3.9rem;
+				font-size: 3.7rem;
 				line-height: 1.1;
 				margin: 0 0 2rem 0;
 			}
@@ -3828,7 +3828,7 @@ video { max-width: 80%; display: block; margin: 20px auto; }
 					}
 
 					#main > .post header.major > h1, #main > .post header.major h2 {
-						font-size: 2.9rem;
+						font-size: 2.7rem;
 						line-height: 1.2;
 						margin: 0 0 1.5rem 0;
 					}
@@ -4305,7 +4305,7 @@ video { max-width: 80%; display: block; margin: 20px auto; }
 		#footer form label,
 		#footer h3,
 		#footer p {
-			font-size: 1.2rem;
+			font-size: 1rem;
 		}
 
 		@media screen and (max-width: 980px) {
