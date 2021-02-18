@@ -23,6 +23,7 @@ SOLUX 2020 Winter project(2020.11~2021.2)
 
 
 ##사용 기술 정보
+
 **Python**
 1. 데이터 분석 : pandas
 2. 수치 연산 : numpy
