@@ -2,10 +2,10 @@
 SOLUX 2020 Winter project(2020.11~2021.2)
 
 
-## Team : 데자와(데이터분석 잘해서 와!) ##
+## Team : 데자와(데이터분석 잘해서 와!)
 
 
-## COVID-19 데이터 분석 ##
+## COVID-19 데이터 분석
 1. 데이터 시각화(배소린, 유세영)
 
 - 국가 별 코로나 일 별 확진자, 회복자, 사망자 추이(시계열)를 보기 쉬운 영상의 형태로 제작
@@ -19,10 +19,10 @@ SOLUX 2020 Winter project(2020.11~2021.2)
 - 반응형 웹 페이지로 해당 데이터 시각화 및 마이닝을 가시적으로 볼 수 있게 함
 
 
-## 웹 페이지 : ##https://nayeonkeum.github.io/COVID19_data_analysis/Web_Hosting/index.html
+## 웹 페이지 : https://nayeonkeum.github.io/COVID19_data_analysis/Web_Hosting/index.html
 
 
-##사용 기술 정보##
+##사용 기술 정보
 **Python**
 1. 데이터 분석 : pandas
 2. 수치 연산 : numpy
@@ -41,7 +41,7 @@ SOLUX 2020 Winter project(2020.11~2021.2)
 1. 웹 호스팅
 
 
-## 역할 분담(프로젝트) ##
+## 역할 분담(프로젝트)
 
 - 데이터 시각화 : 배소린, 유세영
 
