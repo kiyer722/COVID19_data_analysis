@@ -1,7 +1,9 @@
 # COVID19_data_analysis
 SOLUX 2020 Winter project(2020.11~2021.2)
 
+
 ## Team : 데자와(데이터분석 잘해서 와!) ##
+
 
 ## COVID-19 데이터 분석 ##
 1. 데이터 시각화(배소린, 유세영)
@@ -16,7 +18,9 @@ SOLUX 2020 Winter project(2020.11~2021.2)
 
 - 반응형 웹 페이지로 해당 데이터 시각화 및 마이닝을 가시적으로 볼 수 있게 함
 
+
 ## 웹 페이지 : ##https://nayeonkeum.github.io/COVID19_data_analysis/Web_Hosting/index.html
+
 
 ##사용 기술 정보##
 **Python**
@@ -35,6 +39,7 @@ SOLUX 2020 Winter project(2020.11~2021.2)
 
 **Github.io**
 1. 웹 호스팅
+
 
 ## 역할 분담(프로젝트) ##
 
